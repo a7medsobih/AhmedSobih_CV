@@ -67,7 +67,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.4em; /* تقليل حجم العناوين */
   margin-bottom: 10px;
-  border-bottom: 2px solid #0077cc;
+  border-bottom: 0.5px solid #0077cc;
   padding-bottom: 5px;
   color: #333;
 }
@@ -123,6 +123,16 @@ ul li {
   font-size: 1.1em; /* تقليل حجم عنوان القسم */
   margin-bottom: 10px;
   color: #0077cc;
+}
+
+h2,
+h3,
+strong{
+  letter-spacing: 2px;
+}
+
+section{
+  margin: 20px 0;
 }
 
 footer {
@@ -196,6 +206,10 @@ footer {
     font-size: 0.8em; /* تصغير النص بشكل أكبر للأجهزة الصغيرة جداً */
   }
 
+  footer{
+    font-size: 9px;
+  }
+  
   .download-icon a {
     font-size: 0.7em; /* تقليل حجم النص أكثر للأجهزة الصغيرة */
   }
