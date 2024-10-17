@@ -186,41 +186,63 @@ footer {
   }
 
   header p {
-    font-size: 0.8em; /* تقليل حجم النص */
+    font-size: 0.7em; /* تقليل حجم النص */
   }
 
   h2 {
     font-size: 1.2em; /* تقليل حجم العناوين للأجهزة الصغيرة */
+    border-bottom: 1.5px solid #0077cc;
+  }
+  
+  h3{
+    font-size: 0.9em;
   }
 
-  h3{
-    font-size: 1em;
+  .skill-category h3{
+    font-size: 0.8em;
+  }
+
+  p{
+    font-size: 0.7em;
+  }
+
+  .certificates strong {
+    font-size: 1.3em; 
+  }
+
+  .place{
+    font-size: 1.7em;
+  }
+
+  ul{
+    font-size: 0.6em; /* تصغير النص بشكل أكبر للأجهزة الصغيرة جداً */
   }
 
   .skills-container {
     grid-template-columns: 1fr; /* عمود واحد للأجهزة الصغيرة جداً */
+    gap: 5px;
   }
 
   .container {
     padding: 10px; /* تقليل المسافة الداخلية بشكل أكبر */
   }
 
-  p,
-  li {
-    font-size: 0.8em; /* تصغير النص بشكل أكبر للأجهزة الصغيرة جداً */
-  }
-
   h2,
   h3,
   strong{
-    letter-spacing: 1px;
+    letter-spacing: normal;
   }
 
   section{
-    margin: 20px 0 40px 0;
+    margin: 20px 0 30px 0;
+  }
+
+  .skills{
+    margin: 20px 0 0px 0;
   }
 
   footer{
+    margin-top: 10px;
     font-size: 9px;
   }
 
