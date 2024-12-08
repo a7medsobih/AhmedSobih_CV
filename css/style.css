@@ -113,6 +113,10 @@ ul li {
   font-size: 1.2em; /* تقليل حجم الخط */
 }
 
+.place{
+  list-style-type: circle;
+}
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
